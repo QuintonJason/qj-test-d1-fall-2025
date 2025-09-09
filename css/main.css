@@ -1,8 +1,23 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: hotpink;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 98px;
+    text-align: center;
 }
 
 img {
     width: 200px;
+}
+
+/* remove underline from links */
+a {
+    text-decoration: none;
 }
