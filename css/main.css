@@ -1,23 +1,83 @@
 /* Place CSS styles here */
+
+.wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+* {
+    color: yellow;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
+
 body {
     background-color: hotpink;
+    color: #00c200;
     font-size: 16px;
 }
 
 h1 {
     font-size: 98px;
     text-align: center;
+    background-color: red;
+    color: #7fff00;
+    border: 10px solid black;
+}
+
+ul {
+
+}
+
+li {
+
 }
 
 img {
     width: 200px;
+    border: 3px solid black;
 }
 
 /* remove underline from links */
 a {
+    color:grey;
     text-decoration: none;
+}
+
+/* hover styles */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.cat-cow {
+    background-color: #ff00ff;
+}
+
+#top {
+    color: brown;
+}
+
+.cat-cow li a p {
+    color: blue;
+}
+
+.cat-cow p {
+    color: green;
+}
+
+p {
+    color: red
+}
+
+div p {
+    color: orange;
 }
