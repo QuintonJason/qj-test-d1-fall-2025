@@ -1,5 +1,6 @@
 /* Place CSS styles here */
 
+
 * {
     box-sizing: border-box;
 }
@@ -22,12 +23,16 @@ html {
 body {
     background-color: hotpink;
     color: #36382E;
+    font-family: "Merriweather", serif;
     font-size: 16px;
 }
 
+/* every header */
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: hotpink;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     text-shadow: 1px 2px 3px #000000;
 }
 
@@ -39,6 +44,11 @@ h1 {
 
 h2 {
     font-size: 40px;
+}
+
+p{
+    line-height: 1.5;
+    margin-top: 0;
 }
 
 .about-section {
@@ -83,8 +93,9 @@ a:focus-visible {
 .pinky-pie-bg-image {
     background-image: url(../img/pinky-pie.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 420px;
+    height: 350px;
     margin-top: 20px;
 }
 
@@ -103,6 +114,14 @@ a:focus-visible {
     gap: 20px;
 }
 
+.cartoon-pictures a:hover img {
+    border: 3px solid hotpink;
+}
+
+.top-image {
+    text-align: center;
+    color: black;
+}
 
 .footer {
     border-top: 2px solid black;
